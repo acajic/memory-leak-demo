@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="MemoryLeakDemo">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body ng-controller="AppController">
+
+<h1>Testing memory leaks</h1>
+
+<div ng-view="" id="content" class="col-md-12"></div>
+
+
+
+</body>
+
+<script type="text/javascript" src="content/js/angular/angular.min.js"></script>
+<script type="text/javascript" src="content/js/angular/angular-route.js"></script>
+<script type="text/javascript" src="content/js/angular/angular-animate.js"></script>
+<script type="text/javascript" src="content/js/jquery-1.11.0.js"></script>
+
+
+<script type="text/javascript" src="app/app.js"></script>
+
+<script type="text/javascript" src="app/controllers/appController.js"></script>
+<script type="text/javascript" src="app/controllers/listController.js"></script>
+<script type="text/javascript" src="app/controllers/detailsController.js"></script>
+
+
+<script type="text/javascript" src="app/services/serverService.js"></script>
+
+
+
+</html>
